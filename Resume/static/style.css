@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f6fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: #007ACC;
+  color: white;
+  padding: 40px 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h3 {
+  color: #007ACC;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e0e0e0;
+  margin-top: 40px;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #007ACC;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  transition: all 0.3s;
+}
+
+.download-btn:hover {
+  background: #005fa3;
+  color: #fff;
+  border-color: #fff;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 10px;
+  margin: 5px;
+  background: #007ACC;
+  color: white;
+  border-radius: 8px;
+  font-size: 0.9em;
+}
+
+.icon-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.icon-links img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon-links img:hover {
+  transform: scale(1.1);
+}

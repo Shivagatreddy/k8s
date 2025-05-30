@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>N Bharath Kumar - Resume</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <img src="{{ url_for('static', filename='your-photo.jpg') }}" alt="Bharath's Photo" class="profile-pic">
+    <h1>N Bharath Kumar</h1>
+    <h2>Lead Cloud Engineer | Azure | AKS | Terraform</h2>
+    <p>Hyderabad, India | <a href="mailto:bharath.aor@gmail.com">bharath.aor@gmail.com</a> | <a href="tel:+918019701982">+91 80197 01982</a></p>
+    <a href="{{ url_for('static', filename='NAUKRI_BHARATH_KUMAR_NALLA.pdf') }}" class="download-btn" download>Download Resume</a>
+  </header>
+
+  <section class="about">
+    <h3>Profile Summary</h3>
+    <p>With a proven track record at Microsoft, Bosch, Shell, IBM, and Mindtree, I have built expertise in Azure, DevOps, AKS, ADF, Databricks, and SQL in high-impact environments.</p>
+  </section>
+
+  <section class="skills">
+    <h3>Technical Skills</h3>
+    <p>
+      <span class="badge">Azure</span>
+      <span class="badge">AKS</span>
+      <span class="badge">Terraform</span>
+      <span class="badge">Azure DevOps</span>
+      <span class="badge">ADF</span>
+      <span class="badge">Databricks</span>
+      <span class="badge">Power BI</span>
+      <span class="badge">GitHub Actions</span>
+      <span class="badge">CI/CD</span>
+      <span class="badge">Docker</span>
+      <span class="badge">Kubernetes</span>
+      <span class="badge">ARM/Bicep</span>
+    </p>
+  </section>
+
+  <section class="certs">
+    <h3>Certifications</h3>
+    <ul>
+      <li>Azure Administrator Associate (AZ-104)</li>
+      <li>DevOps: Infrastructure Automation with Terraform</li>
+    </ul>
+  </section>
+
+  <section class="experience">
+    <h3>Experience</h3>
+    <ul>
+      <li><strong>Lead Cloud Engineer – Optum</strong> (Jun 2022 – Present)
+        <ul>
+          <li>Designed Azure infrastructure with Terraform and Bicep</li>
+          <li>Managed AKS, App Gateway, CI/CD with Jenkins and GitHub Actions</li>
+        </ul>
+      </li>
+      <li><strong>Advisory Consultant – IBM</strong> (Apr 2021 – Jun 2022)</li>
+      <li><strong>DevOps Engineer – Bosch</strong> (Apr 2019 – Apr 2021)</li>
+      <li><strong>Software Engineer – Mindtree</strong> (2015 – 2019)</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h3>Projects</h3>
+    <ul>
+      <li><strong>MDH</strong> – ADF, Databricks, SQL</li>
+      <li><strong>RNA</strong> – Service Fabric, API Mgmt, Function Apps</li>
+      <li><strong>MSDN</strong> – Azure VMs, Storage, Service Fabric</li>
+    </ul>
+  </section>
+
+  <section class="education">
+    <h3>Education</h3>
+    <p><strong>M.Tech (Computers)</strong> – JNTU, 2015</p>
+    <p><strong>B.Tech (E&C)</strong> – JNTU, 2013</p>
+  </section>
+
+  <section class="contact">
+    <h3>Contact</h3>
+    <div class="icon-links">
+      <a href="mailto:bharath.aor@gmail.com" title="Email">
+        <img src="{{ url_for('static', filename='icons/gmail.png') }}" alt="Gmail">
+      </a>
+      <a href="https://www.linkedin.com/in/bharath-kumar-nalla-6252a2a0/" target="_blank" title="LinkedIn">
+        <img src="{{ url_for('static', filename='icons/linkedin.png') }}" alt="LinkedIn">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 N Bharath Kumar</p>
+  </footer>
+</body>
+</html>
